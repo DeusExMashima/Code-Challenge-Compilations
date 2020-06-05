@@ -1,8 +1,8 @@
 def moveZeroes(arr):
-    zeroes = [zero for zero in arr if zero == 0]
+    zeroes = [zero for zero in nums if zero == 0]
     for i in zeroes:
-        arr.remove(0)
-    return arr + zeroes
+        nums.remove(0)
+        nums.append(i)
 
 print(moveZeroes([1,2,3,4,0,0,0]))
 
