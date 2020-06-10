@@ -108,3 +108,25 @@ print(array_diff([1,2,2], [1]))
 print(array_diff([1,2,2], [2]))
 print(array_diff([1,2,2], []))
 print(array_diff([], [1,2]))
+
+'''
+
+'''
+
+
+def order_weight(strng):
+    cache = {}
+    array = strng.split(' ')
+    for i in array:
+        the_sum = 0
+        
+    new_cache = sorted(cache)
+
+    new_list = ''
+    for i in cache:
+        new_list += cache[i]
+    return new_list
+    
+
+print(order_weight("103 123 4444 99 2000"))
+print(order_weight("2000 10003 1234000 44444444 9999 11 11 22 123"))
