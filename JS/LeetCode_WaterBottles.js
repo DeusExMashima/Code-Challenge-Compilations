@@ -19,3 +19,8 @@ var numWaterBottles = function(numBottles, numExchange) {
 console.log(numWaterBottles(9,3)) // result should be 13
 console.log(numWaterBottles(5,5)) // result should be 6
 console.log(numWaterBottles(2,3)) // result should be 2
+
+/*
+Runtime: 72 ms, faster than 84.36% of JavaScript online submissions for Water Bottles.
+Memory Usage: 38.4 MB, less than 19.43% of JavaScript online submissions for Water Bottles.
+*/
